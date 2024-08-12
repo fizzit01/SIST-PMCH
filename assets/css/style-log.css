@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: white;
+}
+
+.container{
+    display: flex;
+    height: 650px;
+    width: 1000px;
+    box-shadow: 0 0 20px rgb(0, 0, 0);   
+    margin: auto;
+    margin-top: 35px;
+    margin-bottom: 30px;
+}
+.information{
+    background: url("img/fondo.jpg");
+    opacity:1;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40px 70px;
+    width: 50%;
+    text-align: center;
+}
+.txt-1{
+   color: rgb(255, 255, 255);
+   text-transform: capitalize;
+   font-size: 20px;
+   margin-bottom: 15px; 
+}
+
+.information h2{
+    color: white;
+    text-transform: uppercase;
+    font-size: 35px;
+    margin-bottom: 20px; 
+}
+
+.img-logo img{
+    width:250px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    opacity: .8;
+}
+
+.txt-2{
+    color: rgb(215, 215, 215);
+    font-size: 16px;
+}
+.form{
+    padding: 120px 100px;
+    width: 50%;
+    text-align: center;
+    background-color: rgb(255, 255, 255);  
+}
+.form h2{
+    color: orange;
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+.form p{
+    font-size: 16px;
+    color: rgb(69, 69, 69);
+    margin-bottom: 25px;
+}
+#prfregistro{
+    font-size: 13px;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+}
+
+.box{
+    outline: none;
+    border-color: orange;
+    border-width: 0px 0px 0px 5px;
+    border-style: solid;
+    padding: 15px 35px;
+    margin-bottom: 20px;
+    background-color: white;
+}
+.inputs a{
+    color: orange;
+    text-decoration: none;
+    font-size: 17px;
+    margin-bottom: 35px;
+    padding-left: 10px;
+}
+.submit{
+    background-color: rgb(255, 255, 255);
+    padding: 15px;
+    border: 0;
+    color: orange;
+    border: solid 1px;
+    font-size: 15px;
+    text-transform: uppercase;
+    border-radius: 25px;
+    transition: all 400ms ease;
+    cursor: pointer;
+}
+.submit:hover{
+    background-color: orange;
+    color: white;
+}
+/*     
+@media (max-width: 990px) {
+    .container {
+        width: 350px;
+        height: 600px;
+        margin-top: 100px;
+    }
+
+    .information {
+        display: none;
+    }
+} */
